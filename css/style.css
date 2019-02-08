@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 25px;
+    color: #204f87;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+.navbar{
+    padding: 30px 0;
+}
+
+/***bannar section***/
+.bannar-section{
+    background-image: url(../images/bannar-blue.png);
+    position: relative;
+    background-size: cover;
+}
+
+.bannar-section h1{
+    color: #ffff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.bannar-section .row{
+    height: 500px;
+}
+.bannar-orange{
+   background-image: url(../images/bannar-orange.png);
+   height: 100%;
+   width: 100%;
+   background-repeat: no-repeat;
+   position: absolute;
+   background-size: 52%;
+}
+.arrow{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    font-size: 30px;
+    transform: translateX(-50%);
+    color: #ffff;
+    }
+
+    /*****who we are section*****/
+
+    .who-we-are{
+    padding-top: 120px;
+}
+    .heading{/* padding: 20px 0; */}
+    .heading span{
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: #f2622c;
+}
+    .heading h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: #204f87;
+    padding: 30px 0;
+}
+    p{
+    font-size: 14px;
+    color: #b0b0b1;
+    text-align: justify;
+}
+.who-we-are img{}
+
+    
+.what-we-do-section{
+    background-color: #f7f8f8;
+    margin-top: 100px;
+    padding: 80px 0 120px;
+    position: relative;
+}
+.what-we-do-section .heading span{
+    margin: auto;
+}
+
+.what-we-do{
+    position: relative;
+    background-image: (../images/we-do-bg.png);
+}
+.what-we-do img{}
+.what-we-do h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.what-we-do a{
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+}
+.hvr::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+66,7db9e8+91,7db9e8+91&1+0,0+100 */
+background: -moz-linear-gradient(45deg, rgba(125,185,232,1) 0%, rgba(125,185,232,0.34) 66%, rgba(125,185,232,0.09) 91%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(125,185,232,1) 0%,rgba(125,185,232,0.34) 66%,rgba(125,185,232,0.09) 91%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(125,185,232,1) 0%,rgba(125,185,232,0.34) 66%,rgba(125,185,232,0.09) 91%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+.we-do-bg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.we-do-bg img{
+}
+
+
+.attorney-section{
+    background-image: url(../images/attorney-bg.png);
+    background-size: cover;
+    padding: 200px 0 180px;
+}
+.attorney-section .heading h1{
+    color: #fff
+}
+.see-more{
+    color: #f2622c;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.attorney{
+    position: relative;
+    margin-bottom: 30px;
+}
+.attorney img{
+    width: 100%;
+}
+.attorney h2{
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    left: 15%;
+}
+
+
+
+
+
+.language-section{ padding: 100px 0 120px }
+.language-section .heading span{margin: auto;}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #28377e
+}
+
+
+.contact-us-section{
+    background-color: #28377e;
+    padding: 60px 0 80px;
+
+}
+.contact-us-section .heading span{margin: auto;}
+.contact-us-section .heading h1{color: #fff;
+text-transform: uppercase;
+}
+
+input,textarea{
+    color: #ffff !important;
+    background-color: transparent !important;
+    background-clip: padding-box !important;
+    border: 0 solid #ced4da !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #6879ca !important;
+    text-transform: capitalize !important;
+}
+
+
+.btn-custom{background-color: #f2622c !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    text-transform: uppercase !important;
+    font-weight: 800 !important;
+    border-radius: 0 !important;
+    padding: 10px 50px !important;}
+
+
+footer{background: #0c1234;
+    padding: 40px 0;}
+footer p{margin: 0px;}
+.social-icon{}
+.social-icon li{}
+.social-icon li a{
+    font-size: 14px;
+    color: #b0b0b1;
+    padding-left: 10px;
+    display: block;
+}
